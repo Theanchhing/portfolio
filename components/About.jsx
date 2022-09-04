@@ -12,24 +12,11 @@ const About = () => {
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            / / I am not your average developer
-          </p>
           <p className='py-2 text-gray-600 dark:text-slate-300'>
-            I have spent the last 12 years in the fire service working as a
-            professional firefighter/paramedic. I have always had a knack for
-            technology and working with computers. In 2019 I started working
-            with HTML and CSS to make some minor edits on a small business
-            website that I was operating. What I thought was just a few small
-            edits turned into a love for programming.
+          I am a senior at Kirirom Institute of Technology majoring in Software Engineering. During four years in college, I have explored myself in different categories of working internships. I have a deep interest in designing and developing for both web and mobile Frontend to serve the user&apos;s satisfaction. As technologies move,  I am even more enthusiastic about exploring and experiencing new techs and applying them in real life, for example, currently Web3 or Blockchain Technology.
           </p>
           <p className='py-2 text-gray-600'>
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I then started
-            freelancing for e-commerce companies on the Shopify platform. I am
-            now spending my time building projects with React JS, Firebase, and
-            learning new technologies.
+          However, I am not limiting myself only to the Frontend side. While doing my job in front view, I am also developing my skills in the Backend and Database, for example, NodeJS, Express, MongoDB, PostgreSQL, etc. 
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

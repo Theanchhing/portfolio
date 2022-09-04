@@ -3,6 +3,7 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { motion } from "framer-motion"
 
 const Main = () => {
   return (
@@ -31,7 +32,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/Theanchhing'
               target='_blank'
               rel='noreferrer'
             >
