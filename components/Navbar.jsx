@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo-no-bg.png'
+import NavLogo from '../public/assets/nav-logo.png'
 import ThemeToggler from './ThemeToggler';
 
 
@@ -63,7 +63,7 @@ const Navbar = () => {
               src={NavLogo}
               alt='/'
               width='125'
-              height='45'
+              height='60'
               className='cursor-pointer'
             />
           </a>
