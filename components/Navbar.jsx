@@ -89,7 +89,7 @@ const Navbar = () => {
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
-          <ThemeToggler/>
+          {/* <ThemeToggler/> */}
           {/* Hamburger Icon */}
           <div
             style={{ color: `${linkColor}` }}
