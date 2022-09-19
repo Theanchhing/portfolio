@@ -4,8 +4,14 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { motion } from "framer-motion"
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
 const Main = () => {
+  // const [text] = useTypewriter({
+  //   words: ["A Frontend Web & Mobile Developer", "testt"],
+  //   loop: true,
+  //   delaySpeed: 2000
+  // })
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
@@ -16,7 +22,10 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#098DD7]'> THEANCHHING</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Frontend Web & Mobile Developer</h1>
+          <h1 className='py-2 text-gray-700'>
+          <span>testt</span>
+          <Cursor />
+          </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications while
             learning back-end technologies.
