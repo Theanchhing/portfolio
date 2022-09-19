@@ -23,9 +23,7 @@ const Main = () => {
             Hi, I&#39;m <span className='text-[#098DD7]'> THEANCHHING</span>
           </h1>
           <h1 className='py-2 text-gray-700'>
-          {/* <span>{text}</span> */}
-          {/* <Cursor /> */}
-          
+            A Frontend Web & Mobile Developer
           </h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications while
