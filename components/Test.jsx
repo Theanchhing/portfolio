@@ -4,10 +4,10 @@ import { motion } from "framer-motion"
 import { useTypewriter } from 'react-simple-typewriter';
 
 const Test = () => {
-  const [text] = useTypewriter({
-    words: ["hello i am a gentleman"],
-    typeSpeed: 2000
-  })
+  // const [text] = useTypewriter({
+  //   words: ["hello i am a gentleman"],
+  //   typeSpeed: 2000
+  // })
     return (
       <motion.div style={{width: 700, hieght: 500, backgroundColor: '#2143a1', marginLeft: 300, marginTop: 300}}
       animate={{
@@ -17,7 +17,7 @@ const Test = () => {
       }}
     >
       <h1>Testing Library</h1>
-      <h1>{text}</h1>
+      {/* <h1>{text}</h1> */}
     </motion.div>
     );
   }
