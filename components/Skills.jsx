@@ -8,9 +8,9 @@ import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Python from '../public/assets/skills/python-logo.png';
 import NextJS from '../public/assets/skills/nextjs.png'
-import Mongodb from '../public/assets/skills/MongoDB_Logo.png';
-import Node from '../public/assets/skills/node_logo.png';
-import Dfinity from '../public/assets/skills/dfinity_logo.png';
+import Mongodb from '../public/assets/skills/mongo.png';
+import Node from '../public/assets/skills/node.png';
+import Dfinity from '../public/assets/skills/dfinity.png';
 import Solidity from '../public/assets/skills/solidity_logo.png';
 
 const Skills = () => {
@@ -85,7 +85,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex justify-center'>
             <div className='grid grid-cols-2 gap-8'>
               <div className='flex flex-col items-center justify-center'>
-                <Image src={Mongodb} width='64px' height='20px' alt='/' />
+                <Image src={Mongodb} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>MongoDB</h3>
@@ -95,7 +95,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex justify-center'>
             <div className='grid grid-cols-2 gap-8 justify-center items-center'>
               <div className='flex flex-col items-center justify-center'>
-                <Image src={Node} width='64px' height='44px' alt='/' />
+                <Image src={Node} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Node</h3>
@@ -125,7 +125,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex justify-center'>
             <div className='grid grid-cols-2 gap-8 justify-center items-center'>
               <div className='flex flex-col items-center justify-center'>
-                <Image src={Dfinity} width='64px' height='20px' alt='/' />
+                <Image src={Dfinity} width='72px' height='50px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>DFINITY</h3>
