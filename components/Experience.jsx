@@ -98,7 +98,7 @@ const Experience = () => {
               <h4 className="vertical-timeline-element-subtitle">Coin Cloud Co., Ltd</h4>
               <div className="mt-2 ml-4">
                 <li>
-                  Poster editing
+                  Poster designing
                 </li>
                 <li>
                     Video editing
